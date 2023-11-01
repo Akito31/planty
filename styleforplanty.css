@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: voguetitle;
+    src: url(fonts/Vogue.ttf);
+    font-family: cormorant;
+    src:url(fonts/Cormorant-VariableFont_wght.ttf);
+}
+nav{
+    background-color: rgb(25, 43, 30);
+}
+.logonav{
+   
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.shopname{
+   
+    position:absolute;
+   font-family: voguetitle;
+   top: 32px;
+   left: 70px;
+   font-size: 160%;
+   font-style: bold;
+   color: white;
+}
+.navbar ul{
+    float: right;
+}
+.nav_brand{
+    display: inline-block;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+    
+}
+.nav_item:hover{
+    letter-spacing: 3px;
+    color:yellowgreen;
+}
+.carticon{
+    width:45px;
+    height: 50px;
+    
+}
+.cartpng{
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    left: -9px;
+    background-color: darkgreen;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.background_img{
+    width: 100%;
+   
+}
+.background_text{
+    position:absolute;
+    top: 200px;
+    left:100px;
+   
+}
+.background_title{
+    color: white;
+    font-family: coromant;
+    font-weight: unset;
+    margin-bottom: 15px;
+    text-shadow: gray;
+}
+.bgp{
+    color: white;
+    text-shadow: gray;
+}
+.shop_now{
+    margin-top: 15px;
+    border: 1px solid #218632;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #218632;
+    outline: none;
+}
+.shop_now:hover{
+    background-color:#218632 ;
+    color: white;
+    cursor: pointer;
+}
+
+.product{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.product_header{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.divided{
+    width: 100px;
+    margin: auto;
+    border: 2px solid green;
+}
+.product_img{
+    width: 100%;
+    box-shadow: -10px 15px 50px rgb(0, 0, 0,.15);
+    border-radius: 5px;
+}
+.plantName{
+    font-style: bold;
+}
+.discount{
+    font-size: 13px;
+    color:darkgreen;
+    text-decoration: line-through;
+}
+.add_to_cart{
+    border: 2px solid rgb(160, 228, 160);
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: #d7f7dc;
+    outline: none;
+}
+.add_to_cart:hover{
+    color:white;
+    background-color: #569761;
+    cursor:pointer;
+}
+.about{
+    display:grid;
+    margin-top: 50px;
+    text-align: center;
+    grid-template-columns: auto auto auto auto;
+    background-image: url(images/aboutbg.jpg);
+    color:white;
+}
+.divid{
+    width:35px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about div{
+padding: 60px;
+}
+
+/* caring part  */
+.caring_header{
+    margin-top: 50px;
+    margin-left: 125px;
+}
+.caring_img{
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 14px;
+    float: left;
+    width: 40%;
+}
+
+.caring_text{
+    position: relative;
+    width: 90%;
+    left:60px;
+   
+}
+.caring_text h2{
+    text-transform: uppercase;
+}
+.caring_parag{
+    margin-top: 10px;
+    
+}
+.caring_textheader{
+    margin-top: 15px;
+}
+
+.arrowicon{
+    padding-right: 10px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.caring_text_header{
+    margin-top: 25px;
+}
+.clear{
+    clear: both;
+}
+
+.service{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   background-color: rgb(122, 219, 135);
+   margin-top: 50px;
+   padding: 30px 60px;
+}
+.service_text{
+display: inline-block;
+margin-left: 20px;
+}
+.service_header{
+    margin-left: 4px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.serviceIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.footerIcon{
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+.footer{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(87, 136, 98);
+}
+.footer a{
+   color: rgb(1, 49, 1) ;
+    text-decoration: none;
+    margin: 20px;
+}
+.footer p{
+
+    margin-top: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
